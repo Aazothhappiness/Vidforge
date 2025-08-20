@@ -1,0 +1,52 @@
+{
+  "models": [
+    {
+      "modelId": "subject_lora",
+      "triggerWord": "SUBJ",
+      "trainingSteps": 1000,
+      "learningRate": 0.0001,
+      "resolution": "1024x1024",
+      "trainedAt": 1755179700907,
+      "qualityMetrics": {
+        "finalLoss": 0.0234,
+        "overallQuality": 85,
+        "subjectConsistency": 90,
+        "promptAdherence": 99
+      },
+      "modelPath": "/home/project/server/training/lora_1755179630163_1g1swf/output/subject_lora.safetensors",
+      "configPath": "/home/project/server/training/lora_1755179630163_1g1swf/output/subject_lora_config.json"
+    },
+    {
+      "modelId": "subject_lora",
+      "triggerWord": "SUBJ",
+      "trainingSteps": 1000,
+      "learningRate": 0.0001,
+      "resolution": "1024x1024",
+      "trainedAt": 1755183235690,
+      "qualityMetrics": {
+        "finalLoss": 0.0234,
+        "overallQuality": 98,
+        "subjectConsistency": 96,
+        "promptAdherence": 85
+      },
+      "modelPath": "/home/project/server/training/lora_1755183166496_hqyabm/output/subject_lora.safetensors",
+      "configPath": "/home/project/server/training/lora_1755183166496_hqyabm/output/subject_lora_config.json"
+    },
+    {
+      "modelId": "subject_lora",
+      "triggerWord": "SUBJ",
+      "trainingSteps": 1000,
+      "learningRate": 0.0001,
+      "resolution": "1024x1024",
+      "trainedAt": 1755183333865,
+      "qualityMetrics": {
+        "finalLoss": 0.0234,
+        "overallQuality": 91,
+        "subjectConsistency": 94,
+        "promptAdherence": 90
+      },
+      "modelPath": "/home/project/server/training/lora_1755183264795_9tcg4q/output/subject_lora.safetensors",
+      "configPath": "/home/project/server/training/lora_1755183264795_9tcg4q/output/subject_lora_config.json"
+    }
+  ]
+}
