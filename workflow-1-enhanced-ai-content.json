@@ -1,0 +1,490 @@
+{
+  "name": "Enhanced AI Content Creation Workflow #1",
+  "description": "Professional autonomous YouTube content creation with advanced AI quality control, character consistency, and self-improving loops",
+  "version": "2.0",
+  "nodes": [
+    {
+      "id": "trend-research-1",
+      "type": "trend-research",
+      "position": { "x": 100, "y": 100 },
+      "data": {
+        "keyword": "AI automation tools",
+        "niche": "technology",
+        "style": "educational",
+        "contentType": "longform",
+        "targetLength": 12,
+        "region": "global",
+        "language": "en",
+        "timeframe": "last_month",
+        "competitorAnalysis": true,
+        "trendPrediction": true,
+        "audienceInsights": true,
+        "viralPotential": true,
+        "monetizationInsights": true,
+        "thumbnailAnalysis": true,
+        "titleAnalysis": true,
+        "engagementMetrics": true,
+        "targetAudience": "professionals",
+        "contentGoal": "education",
+        "tags": ["AI", "automation", "productivity", "technology", "2025"],
+        "keywords": ["artificial intelligence", "automation tools", "productivity", "workflow optimization"],
+        "competitorChannels": ["TechCrunch", "Marques Brownlee", "Two Minute Papers"]
+      }
+    },
+    {
+      "id": "script-generator-1",
+      "type": "script-generator",
+      "position": { "x": 500, "y": 100 },
+      "data": {
+        "title": "AI Automation Tools That Will Transform Your Workflow in 2025",
+        "duration": 720,
+        "style": "conversational",
+        "tone": "enthusiastic",
+        "energy": 8,
+        "complexity": "moderate",
+        "targetAudience": "professionals",
+        "ageGroup": "young_adults",
+        "scriptStructure": "problem_solution",
+        "openingStyle": "hook",
+        "closingStyle": "call_to_action",
+        "includeHooks": true,
+        "includeCTA": true,
+        "includeIntro": true,
+        "includeOutro": true,
+        "visualCues": true,
+        "storytelling": true,
+        "humor": true,
+        "personalAnecdotes": true,
+        "dataPoints": true,
+        "actionableAdvice": true,
+        "emotionalAppeal": true,
+        "audienceEngagement": true,
+        "seoOptimization": true,
+        "transcriptFriendly": true,
+        "pacing": "moderate",
+        "transitionStyle": "smooth",
+        "repetitionLevel": "moderate",
+        "tags": ["productivity", "AI tools", "workflow", "automation"],
+        "keywords": ["AI automation", "productivity tools", "workflow optimization", "2025 trends"],
+        "keyPhrases": ["game-changing tools", "workflow transformation", "productivity boost"],
+        "callToActions": ["Subscribe for more AI content", "Try these tools yourself", "Share your results"],
+        "inputPorts": 1
+      }
+    },
+    {
+      "id": "judgment-node-1",
+      "type": "judgment-node",
+      "position": { "x": 900, "y": 100 },
+      "data": {
+        "evaluationMethod": "ai_analysis",
+        "qualityThreshold": 0.8,
+        "confidenceThreshold": 0.75,
+        "criteria": [
+          "Script has clear structure and flow",
+          "Content is engaging and informative",
+          "Visual cues are well-integrated",
+          "Call-to-actions are compelling",
+          "Duration matches target length",
+          "Tone is appropriate for audience"
+        ],
+        "outputPorts": 2
+      }
+    },
+    {
+      "id": "sequential-node-1",
+      "type": "sequential-node",
+      "position": { "x": 1300, "y": 50 },
+      "data": {
+        "extractDialogueOnly": true,
+        "includeVisualCues": true,
+        "preserveOrder": true,
+        "queueDelayMs": 500,
+        "waitForClear": false
+      }
+    },
+    {
+      "id": "likeness-node-1",
+      "type": "likeness-node",
+      "position": { "x": 1300, "y": 300 },
+      "data": {
+        "subjectName": "Tech Expert Host",
+        "strictness": 0.9,
+        "detailLevel": "comprehensive",
+        "consistencyMode": "strict",
+        "maxImages": 15,
+        "referenceImages": []
+      }
+    },
+    {
+      "id": "voice-generator-1",
+      "type": "voice-generator",
+      "position": { "x": 1700, "y": 50 },
+      "data": {
+        "voiceId": "Fahco4VZzobUeiPqni1S",
+        "stability": 0.7,
+        "similarityBoost": 0.85,
+        "style": 0.4,
+        "clarity": 0.9,
+        "useSpeakerBoost": true,
+        "model": "eleven_multilingual_v2",
+        "outputFormat": "mp3_44100_192",
+        "normalization": true,
+        "compression": true,
+        "equalization": true,
+        "voiceCharacter": "authoritative",
+        "emotionalRange": "expressive",
+        "speakingRate": 1.1,
+        "emphasis": 1.2,
+        "pauseLength": "medium",
+        "intonationVariety": 0.8
+      }
+    },
+    {
+      "id": "lora-training-node-1",
+      "type": "lora-training-node",
+      "position": { "x": 1000, "y": 300 },
+      "data": {
+        "subjectName": "Tech Expert Host",
+        "trainingSteps": 1000,
+        "learningRate": 0.0001,
+        "batchSize": 1,
+        "resolution": 512,
+        "trainingImages": [
+          {
+            "id": "img_1",
+            "url": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
+            "caption": "Professional tech expert in modern office setting"
+          },
+          {
+            "id": "img_2", 
+            "url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
+            "caption": "Tech expert presenting to audience"
+          },
+          {
+            "id": "img_3",
+            "url": "https://images.pexels.com/photos/3184293/pexels-photo-3184293.jpeg", 
+            "caption": "Close-up portrait of tech expert"
+          },
+          {
+            "id": "img_4",
+            "url": "https://images.pexels.com/photos/3184294/pexels-photo-3184294.jpeg",
+            "caption": "Tech expert working with computer"
+          },
+          {
+            "id": "img_5",
+            "url": "https://images.pexels.com/photos/3184295/pexels-photo-3184295.jpeg",
+            "caption": "Tech expert in casual setting"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lora-node-1",
+      "type": "lora-node",
+      "position": { "x": 1500, "y": 300 },
+      "data": {
+        "modelPath": "",
+        "strength": 0.8,
+        "triggerWord": "tech_expert"
+      }
+    },
+    {
+      "id": "image-generator-1",
+      "type": "image-generator",
+      "position": { "x": 1700, "y": 300 },
+      "data": {
+        "style": "photorealistic",
+        "artStyle": "digital_art",
+        "colorPalette": "vibrant",
+        "lighting": "cinematic",
+        "composition": "rule_of_thirds",
+        "mood": "energetic",
+        "aspectRatio": "16:9",
+        "quality": "hd",
+        "detailLevel": "ultra",
+        "model": "dall-e-3",
+        "resolution": "1792x1024",
+        "steps": 50,
+        "guidanceScale": 12,
+        "upscaling": "2x",
+        "postProcessing": true,
+        "faceEnhancement": true,
+        "safetyFilter": true,
+        "metadataEmbedding": true,
+        "formatOptimization": true,
+        "count": 3
+      }
+    },
+    {
+      "id": "judgment-node-2",
+      "type": "judgment-node",
+      "position": { "x": 2100, "y": 200 },
+      "data": {
+        "evaluationMethod": "ai_analysis",
+        "qualityThreshold": 0.85,
+        "confidenceThreshold": 0.8,
+        "likenessRequired": true,
+        "likenessThreshold": 0.9,
+        "criteria": [
+          "Images match the script visual cues",
+          "Character consistency is maintained",
+          "Visual quality is professional",
+          "Composition follows best practices",
+          "Lighting and mood are appropriate",
+          "Images support the narrative flow"
+        ],
+        "outputPorts": 2
+      }
+    },
+    {
+      "id": "video-assembly-1",
+      "type": "video-assembly",
+      "position": { "x": 2500, "y": 150 },
+      "data": {
+        "title": "AI Automation Tools - Final Video",
+        "description": "Professional video combining narration with visual content",
+        "resolution": "1080p",
+        "fps": 30,
+        "format": "mp4",
+        "quality": "high",
+        "transitions": "fade",
+        "subtitles": true,
+        "inputPorts": 2
+      }
+    },
+    {
+      "id": "export-publisher-1",
+      "type": "export-publisher",
+      "position": { "x": 2900, "y": 150 },
+      "data": {
+        "platform": "youtube",
+        "title": "AI Automation Tools That Will Transform Your Workflow in 2025",
+        "description": "Discover the most powerful AI automation tools that are revolutionizing productivity in 2025. From content creation to workflow optimization, these tools will change how you work forever.",
+        "category": "Science & Technology",
+        "privacy": "public",
+        "monetization": true,
+        "tags": "AI automation, productivity tools, workflow optimization, 2025 technology trends, artificial intelligence, business automation",
+        "hashtags": ["#AI", "#Automation", "#Productivity", "#TechTrends", "#WorkflowOptimization", "#ArtificialIntelligence", "#2025Tech"]
+      }
+    },
+    {
+      "id": "improvement-node-1",
+      "type": "improvement-node",
+      "position": { "x": 1300, "y": 500 },
+      "data": {
+        "improvementType": "enhance_detail",
+        "intensityLevel": "moderate"
+      }
+    },
+    {
+      "id": "research-revise-1",
+      "type": "research-revise",
+      "position": { "x": 900, "y": 500 },
+      "data": {
+        "improvementType": "comprehensive",
+        "intensityLevel": "significant",
+        "preserveStyle": true,
+        "addExamples": true,
+        "enhanceFlow": true,
+        "improveStructure": true,
+        "addEmotionalDepth": true,
+        "inputPorts": 2
+      }
+    },
+    {
+      "id": "loop-node-1",
+      "type": "loop-node",
+      "position": { "x": 500, "y": 500 },
+      "data": {
+        "iterations": 3,
+        "condition": "until_success",
+        "breakCondition": "quality_threshold_met",
+        "inputPorts": 2
+      }
+    },
+    {
+      "id": "ai-analysis-1",
+      "type": "ai-analysis",
+      "position": { "x": 1700, "y": 500 },
+      "data": {
+        "analysisType": "comprehensive",
+        "focusArea": "engagement"
+      }
+    },
+    {
+      "id": "trash-node-1",
+      "type": "trash-node",
+      "position": { "x": 2100, "y": 500 },
+      "data": {
+        "reason": "Quality threshold not met",
+        "archiveContent": true,
+        "generateRetryTicket": true
+      }
+    },
+    {
+      "id": "preview-script",
+      "type": "preview-node",
+      "position": { "x": 900, "y": 300 },
+      "data": {}
+    },
+    {
+      "id": "preview-voice",
+      "type": "preview-node",
+      "position": { "x": 1700, "y": -150 },
+      "data": {}
+    },
+    {
+      "id": "preview-images",
+      "type": "preview-node",
+      "position": { "x": 1700, "y": 450 },
+      "data": {}
+    },
+    {
+      "id": "preview-final",
+      "type": "preview-node",
+      "position": { "x": 2500, "y": 350 },
+      "data": {}
+    },
+    {
+      "id": "analytics-tracker-1",
+      "type": "analytics-tracker",
+      "position": { "x": 3300, "y": 150 },
+      "data": {
+        "trackViews": true,
+        "trackEngagement": true,
+        "trackRetention": true,
+        "trackComments": true,
+        "trackShares": true,
+        "generateReports": true
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "trend-to-script",
+      "sourceId": "trend-research-1",
+      "targetId": "script-generator-1",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "script-to-sequential",
+      "sourceId": "script-generator-1",
+      "targetId": "sequential-node-1",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "script-to-preview",
+      "sourceId": "script-generator-1",
+      "targetId": "preview-script",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "sequential-to-voice",
+      "sourceId": "sequential-node-1",
+      "targetId": "voice-generator-1",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "sequential-to-likeness",
+      "sourceId": "sequential-node-1",
+      "targetId": "lora-training-node-1",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "lora-training-to-lora",
+      "sourceId": "lora-training-node-1",
+      "targetId": "lora-node-1",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "lora-to-likeness",
+      "sourceId": "lora-node-1",
+      "targetId": "likeness-node-1",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "likeness-to-images",
+      "sourceId": "likeness-node-1",
+      "targetId": "image-generator-1",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "voice-to-preview",
+      "sourceId": "voice-generator-1",
+      "targetId": "preview-voice",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "images-to-judgment2",
+      "sourceId": "image-generator-1",
+      "targetId": "judgment-node-2",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "images-to-preview",
+      "sourceId": "image-generator-1",
+      "targetId": "preview-images",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "judgment2-yes-to-assembly",
+      "sourceId": "judgment-node-2",
+      "targetId": "video-assembly-1",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "voice-to-assembly",
+      "sourceId": "voice-generator-1",
+      "targetId": "video-assembly-1",
+      "sourcePort": 0,
+      "targetPort": 1
+    },
+    {
+      "id": "judgment2-no-to-analysis",
+      "sourceId": "judgment-node-2",
+      "targetId": "ai-analysis-1",
+      "sourcePort": 1,
+      "targetPort": 0
+    },
+    {
+      "id": "analysis-to-trash",
+      "sourceId": "ai-analysis-1",
+      "targetId": "trash-node-1",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "assembly-to-export",
+      "sourceId": "video-assembly-1",
+      "targetId": "export-publisher-1",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "assembly-to-preview",
+      "sourceId": "video-assembly-1",
+      "targetId": "preview-final",
+      "sourcePort": 0,
+      "targetPort": 0
+    },
+    {
+      "id": "export-to-analytics",
+      "sourceId": "export-publisher-1",
+      "targetId": "analytics-tracker-1",
+      "sourcePort": 0,
+      "targetPort": 0
+    }
+  ]
+}
